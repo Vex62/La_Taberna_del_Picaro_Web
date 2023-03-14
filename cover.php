@@ -17,6 +17,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -24,12 +28,14 @@
     <header style="background-image: ;">
         <div class = "cover">
             <h1> La Taberna del Pícaro </h1>
-            <h2> Donde las leyendas se forman </h2>
+            <h2> Donde las leyendas nacen </h2>
         </div>
     </header>
-    <section>
+    <section id="navbar">
         <?php require __DIR__ . "/controller/cHeader.php"; ?>
-        <?php require __DIR__ . "/controller/cCategorias.php"; ?>
+    </section>
+    <section id="sections">
+        <?php require __DIR__ . "/controller/cSections.php"; ?>
     </section>
 </div>
 </body>

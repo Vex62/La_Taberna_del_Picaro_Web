@@ -1,4 +1,48 @@
+
+/* TITLES & TEXT */
+h1{
+    font-family: MedievalSharp, sans-serif;
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+h2, h3, h4, h5{
+    font-family: Fondamento, sans-serif;
+}
+h2{
+    font-size: 25px;
+    font-style: italic;
+}
+p{
+    font-family: Rosarivo, sans-serif;
+}
 .cover{
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+/* NAVBAR */
+
+#navbar{
+    overflow: hidden;
+    background-color: black;
+}
+#navbar a{
+    float:left;
+    display:block;
+    color: white;
+    text-align: center;
+    padding:14px;
+    text-decoration: none;
+    font-family: Rosarivo, fantasy;
+}
+.content{
+    padding: 16px;
+}
+.sticky{
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
 }
