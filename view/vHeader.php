@@ -1,5 +1,8 @@
-<div id="navbar">
-    <a href="#home">Inicio</a>
-    <a href="#news">Noticias</a>
-    <a href="#contact">Contacto</a>
-</div>
+<nav>
+    <ol>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#news">Noticias</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        <li><a href="#world">Salafer</a></li>
+    </ol>
+</nav>

@@ -23,20 +23,20 @@
 
 </head>
 <body>
-
-<div id="page">
     <header style="background-image: ;">
+        <section id="navbar">
+            <?php require __DIR__ . "/controller/cHeader.php"; ?>
+        </section>
         <div class = "cover">
             <h1> La Taberna del Pícaro </h1>
             <h2> Donde las leyendas nacen </h2>
         </div>
     </header>
-    <section id="navbar">
-        <?php require __DIR__ . "/controller/cHeader.php"; ?>
-    </section>
     <section id="sections">
         <?php require __DIR__ . "/controller/cSections.php"; ?>
     </section>
-</div>
+    <section id="carousel">
+        <?php require __DIR__ . "/controller/cCarousel.php"; ?>
+    </section>
 </body>
 </html>
