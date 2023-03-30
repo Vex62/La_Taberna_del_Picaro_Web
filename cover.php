@@ -23,7 +23,7 @@
 
 </head>
 <body>
-    <header style="background-image: ;">
+    <header>
         <section id="navbar">
             <?php require __DIR__ . "/controller/cHeader.php"; ?>
         </section>
